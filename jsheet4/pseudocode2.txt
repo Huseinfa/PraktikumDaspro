@@ -1,0 +1,13 @@
+Judul Algoritma:SistemBooking
+
+
+Deklarasi:
+Double = hargatiket,jumlahtiket,totalbayar
+
+Deskripsi:
+1.Print "Masukkan hargatiket"
+2.read 
+3.Print "Masukkan jumlahtiket"
+4.read
+5.hargatiket * jumlahtiket
+6.print totalbayar
