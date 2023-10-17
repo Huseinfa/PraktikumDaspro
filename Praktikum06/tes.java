@@ -20,8 +20,7 @@ public class tes {
         System.out.println("Bilangan Terbesar adalah: " + bil1);
      }
 
-     else 
-    if (bil1>bil3)
+    else if (bil1>bil3)
      {
          System.out.println("Bilangan Terbesar adalah: " + bil1);
 
@@ -47,5 +46,7 @@ public class tes {
         }
         }
     }
+
+    
 }
 }
