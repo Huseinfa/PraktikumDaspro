@@ -24,8 +24,12 @@ import java.util.Scanner;
 
                     } else {
                         System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                        break;
+                        continue;
+                        
+                        
                     }
+                } else {
+                    break;
                 }
             }   while (jatahCuti > 0);
         } 
