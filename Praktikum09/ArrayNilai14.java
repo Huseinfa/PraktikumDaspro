@@ -21,7 +21,7 @@ public class ArrayNilai14 {
                 min = nilaiAkhir[i];
             }
         }
-        rata = sum / 10;
+        rata = sum / nilaiAkhir.length;
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
             if (nilaiAkhir[i] > 70) {
