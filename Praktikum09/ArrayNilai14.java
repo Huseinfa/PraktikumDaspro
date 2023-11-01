@@ -17,7 +17,8 @@ public class ArrayNilai14 {
 
             if (nilaiAkhir[i] > max) {
                 max = nilaiAkhir[i];
-            }else if (nilaiAkhir[i] < min) {
+            }
+            if (nilaiAkhir[i] < min) {
                 min = nilaiAkhir[i];
             }
         }
