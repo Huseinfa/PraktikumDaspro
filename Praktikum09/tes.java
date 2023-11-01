@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class LinearSearch14 {
+public class tes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int[] arrayint;
-        int key, p,count = 0;
+        int key, p, count = 0;
 
         System.out.println("Masukkan jumlah elemen array: ");
         p = sc.nextInt();
@@ -19,13 +19,12 @@ public class LinearSearch14 {
         System.out.println("Masukkan key yang ingin dicari: ");
         key = sc.nextInt();
 
-
         for (int i = 0; i < arrayint.length; i++) {
             if (key == arrayint[i]) {
                 if (count > 0) {
-                System.out.print(" ,");
-                } else{
-                System.out.print("Key ada dalam array pada posisi indeks ke:");
+                    System.out.print(" &");
+                } else {
+                    System.out.print("Key ada dalam array pada posisi indeks ke:");
                 }
                 System.out.print(" " + i);
                 count++;
@@ -34,9 +33,8 @@ public class LinearSearch14 {
 
         if (count == 0) {
             System.out.println("Key tidak dapat ditemukan di dalam array");
-        }else {
+        } else {
             System.out.println();
         }
     }
 }
-
