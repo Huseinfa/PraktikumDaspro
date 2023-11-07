@@ -1,0 +1,13 @@
+Pseudo code
+Pengukuran Suhu
+
+Variable:
+double = suhu[kota][hari], tempSuhu;
+int = pengukuran = 7,kota,hari;
+
+
+1.input kota,hari,tempSuhu
+2.suhu[kota][hari] = tempSuhu
+3.next data? if yes -> back to number 1
+4.if no -> End
+

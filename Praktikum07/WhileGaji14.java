@@ -13,12 +13,13 @@ import java.util.Scanner;
             int i = 0;
             while (i < jumlahKaryawan) {
                 System.out.println("Pilihan jabatan - Direktur, Manajer, Karyawan");
-                System.out.println("Masukkan jabatan karyawan ke-" + (i+1) + ": ");
+                System.out.println("Masukkan jabatan karyawan ke-" + (i + 1) + ": ");
                 jabatan = sc.next();
+                i++;
+                
                 System.out.println("Masukkan jumlah jam lembur: ");
                 jumlahJamLembur = sc.nextInt();
-                i++;
-
+                
                 if (jabatan.equalsIgnoreCase("direktur")) {
                     continue;
                 } else if (jabatan.equalsIgnoreCase("manajer")) {
@@ -26,17 +27,18 @@ import java.util.Scanner;
                 }
                 else if (jabatan.equalsIgnoreCase("karyawan")) {
                     gajiLembur = jumlahJamLembur * 75000;
-                } else 
+                } else {
                 System.out.println("Jabatan Invalid");
-                    i--;
-                    continue;
-
-                
-                    
-                    
+                i--;
+                continue;
                 }
+                
+                
+                
+                
+            }
                 totalGajiLembur += gajiLembur;
-                System.out.println("Total gaji lembur = " + totalGajiLembur);
+                    System.out.println("Total gaji lembur = " + totalGajiLembur);
 
                 
             }
