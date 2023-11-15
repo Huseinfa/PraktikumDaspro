@@ -7,7 +7,7 @@ import java.util.Scanner;
         System.out.println("Masukkan Jumlah *: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i--) {
+        for (int i = 1; i <= n; i++) {
             System.out.print("*");
         }
     }
