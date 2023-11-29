@@ -8,24 +8,29 @@ import java.util.Scanner;
         System.out.println("Masukkan Angka Ganjil : ");
         int n = sc.nextInt();
         
-        int persegi[][] = new int[n][n];
-
-
         if (n % 2 == 0) {
             ganjil = false;
-            System.out.println("Masukkan Angka Ganjil");
+            System.out.println("Masukkan angka ganjil!");
         } else {
             ganjil = true;
-            
-        }
+            for (int i = 1; i <= n; i++) {
+                for (int j = 1; j <= n; j++) {
+                    if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print(n + " ");
 
-        while (ganjil = true) {
-            for (int i = 0; i < persegi.length; i++) {
+                    }else{
+                    System.out.print(  "  ");
+                    }
+                    
+                }
+                System.out.println();
                 
             }
-
             
         }
+
+            
+        
 
     }
 }
